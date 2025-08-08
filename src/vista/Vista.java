@@ -4,6 +4,8 @@
  */
 package vista;
 
+import controlador.GrupoControlador;
+
 /**
  *
  * @author villa
@@ -14,7 +16,8 @@ public class Vista {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        GrupoControlador controlador = new GrupoControlador();
+        controlador.iniciar();
     }
     
 }
